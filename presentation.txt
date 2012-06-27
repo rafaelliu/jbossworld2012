@@ -1,0 +1,29 @@
+Demo 1
+1. Mostrar portlet de feed
+1.1. Fazer deploy
+1.2. Importar
+1.3. Criar uma página e adicionar o portlet
+1.4. Configurar:
+	http://summitblog.redhat.com/feed/
+	http://vimeo.com/channels/gatein/videos/rss
+
+2. Utilizar extenção EPP
+2.1. Fazer deploy
+2.2. Mostrar estrutura de extensão
+2.3. Mostrar configuração da página/portlet
+	
+Demo 2
+1. Criar nodetype de "talk"
+1.1. Form Generator: Title, Type, Public, Description
+1.2. Criar pasta no Content Explorer
+1.3. Criar uma página com Content Creator
+1.4. Adicionar um conteúdo e verificar no Content Explorer
+1.5. Alterar a view
+1.6. Adicionar template de CLV
+
+2. Utilizar extensão de email
+2.1. Mostrar mesma estrutura de extensão
+2.2. Mostrar definição de nodetype
+2.3. Mostrar definição de templates
+2.3. Mostrar script
+2.4. Mostrar stmp no configuration.properties

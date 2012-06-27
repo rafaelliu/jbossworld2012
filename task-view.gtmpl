@@ -1,0 +1,16 @@
+<%
+  def currentNode = uicomponent.getNode() ;
+%>
+<!--VIEW_BEGIN-->
+<div style="padding: 20px">
+     <% if (currentNode.hasProperty("exo:fg_p_title")) { %>
+        <h1><%=currentNode.getProperty("exo:fg_p_title").getString()%></h1>
+     <% } %>
+     <% if (currentNode.hasProperty("exo:fg_p_type")) { %>
+        <p><b><i>Type:</i></b> <%=currentNode.getProperty("exo:fg_p_type").getString()%></p>
+     <% } %>
+     <% if (currentNode.hasProperty("exo:fg_p_description")) { %>
+        <%=currentNode.getProperty("exo:fg_p_description").getString()%>
+     <% } %>
+</div>
+<!--VIEW_END-->
